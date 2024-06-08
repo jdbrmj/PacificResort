@@ -1,0 +1,95 @@
+#wrapper{
+  background-color: white;
+  min-width: 960px;
+  max-width: 2048px;
+  width: 80%;
+  margin: auto;
+  margin-top: -35px;
+  border: 3px solid rgb(10, 113, 137);
+  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+#homehero{
+  background-image: url(images/sunset.jpg);
+    height: 500px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#activityhero{
+  background-image: url(images/activitypic.jpg);
+    height: 500px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  #cottageshero{
+    background-image: url(images/house.jpg);
+    height: 500px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  body {
+    background: rgb(237, 237, 240);
+    background: linear-gradient(90deg, rgb(4, 44, 103) 33%, rgb(5, 82, 197) 79%, rgb(4, 44, 103) 93%);
+    font-family: Arial, Helvetica, sans-serif;
+     background-attachment: fixed;
+
+
+}
+header{
+    background-color: #002171;
+    background-image: linear-gradient(to right,#002171,transparent), url(images/sunset.jpg);
+    background-repeat: no-repeat;
+    background-position : right;
+    background-size: 200px;
+    padding-bottom: 20px ;
+    color: #ffffff;
+    line-height: 400%;
+}
+h1{
+    margin-bottom: 0;
+    padding-top: 0.5em;
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serifs;
+  }
+  .pacific{
+    color: rgb(10, 113, 137);
+    font-weight:bold;
+  }
+  nav{
+    padding-bottom: 5px;
+    /*background-color: #bbdefb;*/
+    text-align: center;
+    font-weight:1000;
+  }
+  nav a{
+    text-decoration: none;
+  }
+  dt{
+    font-weight:bold;
+    color: rgb(10, 113, 137);
+  }
+  .title-2{
+    color: blue;
+    text-align: left;
+    margin-left: 20px;
+  }
+  .address{
+    margin-left: 20px;
+  }
+  .intro{
+    margin-left: 20px;
+}
+.list{
+  margin-left: 50px;
+}
+
+
+  footer {
+    text-align: center;
+    font-family: georgia, "Times New Roman", serif;
+    font-size: 75%;
+  }
+  main{
+  padding-right: 2em;
+  padding-left: 2em;
+}
